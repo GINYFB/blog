@@ -16,7 +16,7 @@
 			
 			//Controleer of deze foto al bestaat
 			if (file_exists($uploadsMap)) {
-				echo "Deze foto bestaat al.";
+				echo "Deze foto bestaat al. LALAALALALAAAA	";
 				echo $uploadsMap; die;
 				return false;
 			}
