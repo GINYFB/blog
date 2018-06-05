@@ -4,7 +4,7 @@ $wachtwoord = htmlspecialchars($POST['password']);
 
 $bestand=fopen("gebruikers.txt","r");
 if(!$bestand) {
-	echo "Kon geen bestand openen!";
+	echo "Kon geen bestand openen! doooooooooooei";
 }
 
 while(!feof($bestand)){
